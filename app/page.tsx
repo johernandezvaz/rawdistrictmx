@@ -21,7 +21,7 @@ export default function Home() {
           </div>
 
           <p className="text-lg md:text-xl max-w-2xl mx-auto leading-relaxed font-light opacity-90">
-            Inspirada en los orígenes del house y el techno, Raw District es más que ropa.
+            Inspirada en el magnetismo y la fuerza del techno, Raw District es más que ropa.
             Es una declaración de identidad para quienes viven la música desde el underground.
           </p>
 
@@ -56,12 +56,12 @@ export default function Home() {
             <div className="grid md:grid-cols-2 gap-12 text-base md:text-lg leading-relaxed opacity-90">
               <div className="space-y-6">
                 <p>
-                  Nacida del pulso de Chicago y el alma industrial de Detroit,
+                  Nacida del pulso oscuro de Berlín y el alma industrial de Detroit,
                   Raw District celebra el origen de una revolución sonora que cambió el mundo.
                 </p>
                 <p>
-                  El house y el techno no fueron solo géneros musicales. Fueron movimientos
-                  de resistencia, creatividad y comunidad.
+                  El techno no es solo un género musical. Es un movimiento
+                  de resistencia, creatividad y pura energía underground.
                 </p>
               </div>
 
@@ -92,8 +92,8 @@ export default function Home() {
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
             {[
               { name: 'ACID HOODIE', code: 'RD_001' },
-              { name: '303 TEE', code: 'RD_002' },
-              { name: 'WAREHOUSE JACKET', code: 'RD_003' },
+              { name: '909 TEE', code: 'RD_002' },
+              { name: 'BUNKER JACKET', code: 'RD_003' },
               { name: 'BASIC CHANNEL CAP', code: 'RD_004' },
             ].map((item) => (
               <div
@@ -144,11 +144,7 @@ export default function Home() {
               </div>
 
               <div className="mt-12 pt-8 border-t border-[#2E2E35]">
-                <div className="grid grid-cols-3 gap-8 text-center">
-                  <div>
-                    <div className="text-3xl md:text-4xl font-semibold text-[#FF3B3B] mb-2">1985</div>
-                    <div className="text-xs tracking-wider opacity-60">ORIGEN HOUSE</div>
-                  </div>
+                <div className="grid grid-cols-2 gap-8 text-center max-w-md mx-auto lg:mx-0">
                   <div>
                     <div className="text-3xl md:text-4xl font-semibold text-[#FF3B3B] mb-2">1988</div>
                     <div className="text-xs tracking-wider opacity-60">ORIGEN TECHNO</div>
