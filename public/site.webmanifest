@@ -1,0 +1,22 @@
+{
+    "name": "Raw District",
+    "short_name": "Raw District",
+    "description": "Cultura underground. Ropa inspirada en el techno y el house.",
+    "icons": [
+        {
+            "src": "/android-chrome-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/android-chrome-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ],
+    "theme_color": "#1C1C21",
+    "background_color": "#000000",
+    "display": "standalone",
+    "start_url": "/",
+    "orientation": "portrait"
+}
