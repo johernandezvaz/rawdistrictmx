@@ -89,36 +89,19 @@ export default function Home() {
             <p className="text-sm tracking-widest mt-4 opacity-60">EDICIÓN LIMITADA</p>
           </div>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
-            {[
-              { name: 'ACID HOODIE', code: 'RD_001' },
-              { name: '909 TEE', code: 'RD_002' },
-              { name: 'BUNKER JACKET', code: 'RD_003' },
-              { name: 'BASIC CHANNEL CAP', code: 'RD_004' },
-            ].map((item) => (
-              <div
-                key={item.code}
-                className="group cursor-pointer"
-              >
-                <div className="aspect-[3/4] bg-[#0B0B0D] border border-[#2E2E35] mb-4 relative overflow-hidden transition-all duration-500 group-hover:border-[#FF3B3B]">
-                  <div className="absolute inset-0 flex items-center justify-center">
-                    <div className="text-center">
-                      <div className="text-[#FF3B3B] text-xs tracking-widest mb-2 opacity-0 group-hover:opacity-100 transition-opacity duration-500">
-                        {item.code}
-                      </div>
-                      <div className="text-6xl font-light opacity-20 group-hover:opacity-40 transition-opacity duration-500">
-                        RD
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div className="space-y-2">
-                  <h3 className="text-base tracking-[0.12em]">{item.name}</h3>
-                  <p className="text-xs tracking-widest opacity-50">{item.code}</p>
-                </div>
-              </div>
-            ))}
+          <div className="max-w-4xl mx-auto text-center border border-[#2E2E35] bg-[#1C1C21] py-24 px-6 md:px-16">
+            <div className="text-[#FF3B3B] text-sm tracking-[0.3em] font-semibold mb-8">
+              EN DESARROLLO
+            </div>
+            <h3 className="text-3xl md:text-5xl font-medium text-[#E8E8E3] mb-8">
+              Algo está tomando forma.
+            </h3>
+            <p className="text-lg md:text-xl text-[#E8E8E3] opacity-90 leading-relaxed font-light mx-auto max-w-2xl mb-12">
+              Estamos trabajando en piezas que realmente encajen con la cultura de Raw District y con quienes la viven.
+            </p>
+            <div className="text-xs tracking-[0.2em] text-[#E8E8E3] opacity-40">
+              TEMPORADA 01 — PRÓXIMAMENTE
+            </div>
           </div>
         </div>
       </section>
@@ -157,13 +140,12 @@ export default function Home() {
               </div>
             </div>
 
-            <div className="aspect-square bg-[#1C1C21] border border-[#2E2E35] relative">
-              <div className="absolute inset-0 flex items-center justify-center">
-                <div className="text-center space-y-4">
-                  <div className="text-8xl font-light opacity-10">RD</div>
-                  <div className="text-xs tracking-[0.2em] opacity-40">UNDERGROUND CULTURE</div>
-                </div>
-              </div>
+            <div className="aspect-square bg-[#1C1C21] border border-[#2E2E35] relative overflow-hidden">
+              <img
+                src="https://res.cloudinary.com/dizorsslw/image/upload/v1775005541/obfpqpfciv34131w0evw.jpg"
+                alt="RD Underground Culture"
+                className="absolute inset-0 w-full h-full object-cover"
+              />
             </div>
           </div>
         </div>
